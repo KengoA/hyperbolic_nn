@@ -1,4 +1,7 @@
-This repo is a fork of https://github.com/dalab/hyperbolic_nn for group project COMP0084 at UCL 2019/20
+This repo is a fork of https://github.com/dalab/hyperbolic_nn for group project COMP0084 at UCL 2019/20, focusing on the analyses of hyperbolic neural networks and the effectiveness of embedding initialisation with pretrained vectors in multiple dimensions.
+
+Upload this directory to your Google Drive and run the experiment from the following Colab notebook
+https://colab.research.google.com/drive/1RUhN_sE-gLYjeoChEg7m_TlgsisqjTC_
 
 # [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112)
 ### Python source code
@@ -27,11 +30,7 @@ The data needed in this code lives in the *_dataset folders and was generated as
 
 - the PREFIX dataset was generated using the file `prefix_dataset.py`
 
-
-
 ## References
-If you find this code useful for your research, please cite the following paper in your publication:
-```
 @article{ganea2018hyperbolic,
   title={Hyperbolic Neural Networks},
   author={Ganea, Octavian-Eugen and B{\'e}cigneul, Gary and Hofmann, Thomas},
