@@ -1,3 +1,5 @@
+This repo is a fork of https://github.com/dalab/hyperbolic_nn for group project COMP0084 at UCL 2019/20
+
 # [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112)
 ### Python source code
 
