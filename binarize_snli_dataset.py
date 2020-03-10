@@ -21,12 +21,8 @@ parser = argparse.ArgumentParser()
 
 # Path to a folder called snli_dataset/ where all binary data will be placed. 
 # This folder should contain the original SNLI dataset downloaded and unzipped from https://nlp.stanford.edu/projects/snli/
-parser.add_argument("--root_path", type=str, help="Root path", default='/path/to/your/snli_dataset/') 
-
-# Original SNLI files.
-parser.add_argument("--train_file", type=str, help="Train path", default='snli_1.0/snli_1.0_train.txt')
-parser.add_argument("--dev_file", type=str, default='snli_1.0/snli_1.0_dev.txt')
-parser.add_argument("--test_file", type=str, default='snli_1.0/snli_1.0_test.txt')
+parser.add_argument("--is_spelling_corrected", type=str2bool, help="", default="")
+parser.add_argument("--root_path", type=str, help="Root path", default='snli_dataset/')
 
 parser.add_argument("--save_train_file", type=str, default='train')
 parser.add_argument("--save_dev_file", type=str, default='dev')
@@ -52,17 +48,29 @@ CLASS_TO_ID = {
 if args.num_classes == 2:
     CLASS_TO_ID['contradiction'] = 0
 
-original_filepath_train = os.path.join(args.root_path, args.train_file)
-original_filepath_dev = os.path.join(args.root_path, args.dev_file)
-original_filepath_test = os.path.join(args.root_path, args.test_file)
+if args.is_spelling_corrected:
+    folder_type = 'clean'
+else:
+    folder_type = 'dirty'
+
+# Original SNLI files.
+train_file = os.path.join('snli_1.0', folder_type, 'snli_1.0_train.txt')
+dev_file = os.path.join('snli_1.0', folder_type, 'snli_1.0_dev.txt')
+test_file = os.path.join('snli_1.0', folder_type, 'snli_1.0_test.txt')
+
+original_filepath_train = os.path.join(args.root_path, train_file)
+original_filepath_dev = os.path.join(args.root_path, dev_file)
+original_filepath_test = os.path.join(args.root_path, test_file)
 
 suffix = '_' + str(args.num_classes) + 'class'
-save_filepath_train = os.path.join(args.root_path, args.save_train_file + suffix)
-save_filepath_dev = os.path.join(args.root_path, args.save_dev_file + suffix)
-save_filepath_test = os.path.join(args.root_path, args.save_test_file + suffix)
 
-save_filepath_word2id = os.path.join(args.root_path, args.save_word_to_id)
-save_filepath_id2word = os.path.join(args.root_path, args.save_id_to_word)
+save_filepath_train = os.path.join(args.root_path, folder_type, args.save_train_file + suffix)
+save_filepath_dev = os.path.join(args.root_path, folder_type, args.save_dev_file + suffix)
+save_filepath_test = os.path.join(args.root_path, folder_type, args.save_test_file + suffix)
+
+save_filepath_word2id = os.path.join(args.root_path, folder_type, args.save_word_to_id)
+save_filepath_id2word = os.path.join(args.root_path, folder_type, args.save_id_to_word)
+
 
 
 def get_vocab(file_paths):
