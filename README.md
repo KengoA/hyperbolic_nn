@@ -1,4 +1,4 @@
-This repo is a fork of https://github.com/dalab/hyperbolic_nn for group project COMP0084 at UCL 2019/20, focusing on the analyses of hyperbolic neural networks and the effectiveness of embedding initialisation with pretrained vectors in multiple dimensions.
+This repo is a fork of https://github.com/dalab/hyperbolic_nn for the group project for Statistical NLP (COMP0087 2019/20) at UCL, focusing on the analyses of hyperbolic neural networks and the effectiveness of embedding initialisation with pretrained vectors in multiple dimensions.
 
 Upload this directory to your Google Drive and run the experiment on Colab from run_experiment.ipynb
 
