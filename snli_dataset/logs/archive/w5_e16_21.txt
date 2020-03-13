@@ -1,0 +1,193 @@
+2020/03/12 22:02:05: PARAMS :  experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:02:16: Loading train - val - test data
+2020/03/12 22:02:20: Training data size: 549367
+2020/03/12 22:02:20: Class 1 has 33.3868 percent samples
+2020/03/12 22:02:20: Class 0 has 66.6132 percent samples
+2020/03/12 22:02:20: Validation data size: 9842
+2020/03/12 22:02:20: Class 1 has 34.2207 percent samples
+2020/03/12 22:02:20: Class 0 has 65.5964 percent samples
+2020/03/12 22:02:20: Test data size: 9824
+2020/03/12 22:02:20: Class 1 has 34.2834 percent samples
+2020/03/12 22:02:20: Class 0 has 65.7166 percent samples
+2020/03/12 22:02:27: Epoch: 0
+2020/03/12 22:02:55: For test: ==>  glN_predN = 5588.0; glE_predN = 1114.0; glN_predE = 868.0; glE_predE = 2254.0
+2020/03/12 22:02:55: CURRENT val accuracy: 0.7969 ; test accuracy: [92m 0.7982 [0m
+2020/03/12 22:02:55: BEST: i = 0, val acc: [94m 79.69[0m, test acc: [91m 79.82[0m
+2020/03/12 22:02:56: Stored the model in 0 seconds.
+2020/03/12 22:02:56: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:02:56: =============================================================
+2020/03/12 22:08:09: Num examples processed: 128000. curr_loss: 0.4531; sec_per_sent: 0.0024
+2020/03/12 22:08:27: For test: ==>  glN_predN = 5644.0; glE_predN = 1186.0; glN_predE = 812.0; glE_predE = 2182.0
+2020/03/12 22:08:27: CURRENT val accuracy: 0.8018 ; test accuracy: [92m 0.7966 [0m
+2020/03/12 22:08:27: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:08:27: Stored the model in 0 seconds.
+2020/03/12 22:08:27: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:08:27: =============================================================
+2020/03/12 22:13:41: Num examples processed: 256000. curr_loss: 0.4764; sec_per_sent: 0.0025
+2020/03/12 22:13:59: For test: ==>  glN_predN = 5589.0; glE_predN = 1135.0; glN_predE = 867.0; glE_predE = 2233.0
+2020/03/12 22:13:59: CURRENT val accuracy: 0.8002 ; test accuracy: [92m 0.7962 [0m
+2020/03/12 22:13:59: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:13:59: Stored the model in 0 seconds.
+2020/03/12 22:13:59: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:13:59: =============================================================
+2020/03/12 22:19:12: Num examples processed: 384000. curr_loss: 0.4654; sec_per_sent: 0.0024
+2020/03/12 22:19:30: For test: ==>  glN_predN = 5536.0; glE_predN = 1042.0; glN_predE = 920.0; glE_predE = 2326.0
+2020/03/12 22:19:30: CURRENT val accuracy: 0.8016 ; test accuracy: [92m 0.8003 [0m
+2020/03/12 22:19:30: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:19:30: Stored the model in 0 seconds.
+2020/03/12 22:19:30: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:19:30: =============================================================
+2020/03/12 22:24:40: Num examples processed: 512000. curr_loss: 0.3649; sec_per_sent: 0.0024
+2020/03/12 22:24:58: For test: ==>  glN_predN = 5770.0; glE_predN = 1266.0; glN_predE = 686.0; glE_predE = 2102.0
+2020/03/12 22:24:58: CURRENT val accuracy: 0.7992 ; test accuracy: [92m 0.8013 [0m
+2020/03/12 22:24:58: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:24:58: Stored the model in 0 seconds.
+2020/03/12 22:24:58: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:24:58: =============================================================
+2020/03/12 22:26:29: Epoch: 1
+2020/03/12 22:26:46: For test: ==>  glN_predN = 5716.0; glE_predN = 1253.0; glN_predE = 740.0; glE_predE = 2115.0
+2020/03/12 22:26:46: CURRENT val accuracy: 0.7996 ; test accuracy: [92m 0.7971 [0m
+2020/03/12 22:26:46: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:26:47: Stored the model in 0 seconds.
+2020/03/12 22:26:47: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:26:47: =============================================================
+2020/03/12 22:31:56: Num examples processed: 677367. curr_loss: 0.3949; sec_per_sent: 0.0024
+2020/03/12 22:32:13: For test: ==>  glN_predN = 5541.0; glE_predN = 1063.0; glN_predE = 915.0; glE_predE = 2305.0
+2020/03/12 22:32:13: CURRENT val accuracy: 0.8009 ; test accuracy: [92m 0.7987 [0m
+2020/03/12 22:32:13: BEST: i = 128000, val acc: [94m 80.18[0m, test acc: [91m 79.66[0m
+2020/03/12 22:32:14: Stored the model in 0 seconds.
+2020/03/12 22:32:14: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:32:14: =============================================================
+2020/03/12 22:37:29: Num examples processed: 805367. curr_loss: 0.5045; sec_per_sent: 0.0025
+2020/03/12 22:37:47: For test: ==>  glN_predN = 5462.0; glE_predN = 944.0; glN_predE = 994.0; glE_predE = 2424.0
+2020/03/12 22:37:47: CURRENT val accuracy: 0.8021 ; test accuracy: [92m 0.8027 [0m
+2020/03/12 22:37:47: BEST: i = 805367, val acc: [94m 80.21[0m, test acc: [91m 80.27[0m
+2020/03/12 22:37:48: Stored the model in 0 seconds.
+2020/03/12 22:37:48: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:37:48: =============================================================
+2020/03/12 22:42:59: Num examples processed: 933367. curr_loss: 0.3245; sec_per_sent: 0.0024
+2020/03/12 22:43:17: For test: ==>  glN_predN = 5483.0; glE_predN = 970.0; glN_predE = 973.0; glE_predE = 2398.0
+2020/03/12 22:43:17: CURRENT val accuracy: 0.8042 ; test accuracy: [92m 0.8022 [0m
+2020/03/12 22:43:17: BEST: i = 933367, val acc: [94m 80.42[0m, test acc: [91m 80.22[0m
+2020/03/12 22:43:17: Stored the model in 0 seconds.
+2020/03/12 22:43:17: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:43:17: =============================================================
+2020/03/12 22:48:32: Num examples processed: 1061367. curr_loss: 0.4157; sec_per_sent: 0.0025
+2020/03/12 22:48:50: For test: ==>  glN_predN = 5694.0; glE_predN = 1179.0; glN_predE = 762.0; glE_predE = 2189.0
+2020/03/12 22:48:50: CURRENT val accuracy: 0.8015 ; test accuracy: [92m 0.8024 [0m
+2020/03/12 22:48:50: BEST: i = 933367, val acc: [94m 80.42[0m, test acc: [91m 80.22[0m
+2020/03/12 22:48:50: Stored the model in 0 seconds.
+2020/03/12 22:48:50: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:48:50: =============================================================
+2020/03/12 22:50:22: Epoch: 2
+2020/03/12 22:50:39: For test: ==>  glN_predN = 5693.0; glE_predN = 1151.0; glN_predE = 763.0; glE_predE = 2217.0
+2020/03/12 22:50:39: CURRENT val accuracy: 0.8015 ; test accuracy: [92m 0.8052 [0m
+2020/03/12 22:50:39: BEST: i = 933367, val acc: [94m 80.42[0m, test acc: [91m 80.22[0m
+2020/03/12 22:50:40: Stored the model in 0 seconds.
+2020/03/12 22:50:40: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:50:40: =============================================================
+2020/03/12 22:55:52: Num examples processed: 1226734. curr_loss: 0.4232; sec_per_sent: 0.0024
+2020/03/12 22:56:09: For test: ==>  glN_predN = 5653.0; glE_predN = 1101.0; glN_predE = 803.0; glE_predE = 2267.0
+2020/03/12 22:56:09: CURRENT val accuracy: 0.8047 ; test accuracy: [92m 0.8062 [0m
+2020/03/12 22:56:09: BEST: i = 1226734, val acc: [94m 80.47[0m, test acc: [91m 80.62[0m
+2020/03/12 22:56:10: Stored the model in 0 seconds.
+2020/03/12 22:56:10: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 22:56:10: =============================================================
+2020/03/12 23:01:23: Num examples processed: 1354734. curr_loss: 0.4947; sec_per_sent: 0.0024
+2020/03/12 23:01:41: For test: ==>  glN_predN = 5636.0; glE_predN = 1075.0; glN_predE = 820.0; glE_predE = 2293.0
+2020/03/12 23:01:41: CURRENT val accuracy: 0.8089 ; test accuracy: [92m 0.8071 [0m
+2020/03/12 23:01:41: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:01:41: Stored the model in 0 seconds.
+2020/03/12 23:01:41: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:01:41: =============================================================
+2020/03/12 23:06:56: Num examples processed: 1482734. curr_loss: 0.4174; sec_per_sent: 0.0025
+2020/03/12 23:07:14: For test: ==>  glN_predN = 5730.0; glE_predN = 1241.0; glN_predE = 726.0; glE_predE = 2127.0
+2020/03/12 23:07:14: CURRENT val accuracy: 0.8037 ; test accuracy: [92m 0.7998 [0m
+2020/03/12 23:07:14: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:07:14: Stored the model in 0 seconds.
+2020/03/12 23:07:14: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:07:14: =============================================================
+2020/03/12 23:12:28: Num examples processed: 1610734. curr_loss: 0.4728; sec_per_sent: 0.0025
+2020/03/12 23:12:46: For test: ==>  glN_predN = 5454.0; glE_predN = 906.0; glN_predE = 1002.0; glE_predE = 2462.0
+2020/03/12 23:12:46: CURRENT val accuracy: 0.8052 ; test accuracy: [92m 0.8058 [0m
+2020/03/12 23:12:46: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:12:46: Stored the model in 0 seconds.
+2020/03/12 23:12:46: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:12:46: =============================================================
+2020/03/12 23:14:19: Epoch: 3
+2020/03/12 23:14:37: For test: ==>  glN_predN = 5476.0; glE_predN = 948.0; glN_predE = 980.0; glE_predE = 2420.0
+2020/03/12 23:14:37: CURRENT val accuracy: 0.8056 ; test accuracy: [92m 0.8037 [0m
+2020/03/12 23:14:37: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:14:37: Stored the model in 0 seconds.
+2020/03/12 23:14:37: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:14:37: =============================================================
+2020/03/12 23:19:52: Num examples processed: 1776101. curr_loss: 0.2638; sec_per_sent: 0.0025
+2020/03/12 23:20:09: For test: ==>  glN_predN = 5680.0; glE_predN = 1117.0; glN_predE = 776.0; glE_predE = 2251.0
+2020/03/12 23:20:09: CURRENT val accuracy: 0.8030 ; test accuracy: [92m 0.8073 [0m
+2020/03/12 23:20:09: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:20:10: Stored the model in 0 seconds.
+2020/03/12 23:20:10: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:20:10: =============================================================
+2020/03/12 23:25:24: Num examples processed: 1904101. curr_loss: 0.4462; sec_per_sent: 0.0025
+2020/03/12 23:25:41: For test: ==>  glN_predN = 5474.0; glE_predN = 939.0; glN_predE = 982.0; glE_predE = 2429.0
+2020/03/12 23:25:41: CURRENT val accuracy: 0.8034 ; test accuracy: [92m 0.8045 [0m
+2020/03/12 23:25:41: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:25:42: Stored the model in 0 seconds.
+2020/03/12 23:25:42: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:25:42: =============================================================
+2020/03/12 23:30:56: Num examples processed: 2032101. curr_loss: 0.4526; sec_per_sent: 0.0025
+2020/03/12 23:31:13: For test: ==>  glN_predN = 5526.0; glE_predN = 967.0; glN_predE = 930.0; glE_predE = 2401.0
+2020/03/12 23:31:13: CURRENT val accuracy: 0.8069 ; test accuracy: [92m 0.8069 [0m
+2020/03/12 23:31:13: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:31:14: Stored the model in 0 seconds.
+2020/03/12 23:31:14: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:31:14: =============================================================
+2020/03/12 23:36:27: Num examples processed: 2160101. curr_loss: 0.3180; sec_per_sent: 0.0024
+2020/03/12 23:36:44: For test: ==>  glN_predN = 5687.0; glE_predN = 1115.0; glN_predE = 769.0; glE_predE = 2253.0
+2020/03/12 23:36:44: CURRENT val accuracy: 0.8062 ; test accuracy: [92m 0.8082 [0m
+2020/03/12 23:36:44: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:36:45: Stored the model in 0 seconds.
+2020/03/12 23:36:45: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:36:45: =============================================================
+2020/03/12 23:38:18: Epoch: 4
+2020/03/12 23:38:35: For test: ==>  glN_predN = 5677.0; glE_predN = 1100.0; glN_predE = 779.0; glE_predE = 2268.0
+2020/03/12 23:38:35: CURRENT val accuracy: 0.8068 ; test accuracy: [92m 0.8087 [0m
+2020/03/12 23:38:35: BEST: i = 1354734, val acc: [94m 80.89[0m, test acc: [91m 80.71[0m
+2020/03/12 23:38:36: Stored the model in 0 seconds.
+2020/03/12 23:38:36: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:38:36: =============================================================
+2020/03/12 23:43:50: Num examples processed: 2325468. curr_loss: 0.3982; sec_per_sent: 0.0025
+2020/03/12 23:44:07: For test: ==>  glN_predN = 5556.0; glE_predN = 964.0; glN_predE = 900.0; glE_predE = 2404.0
+2020/03/12 23:44:07: CURRENT val accuracy: 0.8108 ; test accuracy: [92m 0.8103 [0m
+2020/03/12 23:44:07: BEST: i = 2325468, val acc: [94m 81.08[0m, test acc: [91m 81.03[0m
+2020/03/12 23:44:08: Stored the model in 0 seconds.
+2020/03/12 23:44:08: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:44:08: =============================================================
+2020/03/12 23:49:19: Num examples processed: 2453468. curr_loss: 0.4147; sec_per_sent: 0.0024
+2020/03/12 23:49:37: For test: ==>  glN_predN = 5641.0; glE_predN = 1051.0; glN_predE = 815.0; glE_predE = 2317.0
+2020/03/12 23:49:37: CURRENT val accuracy: 0.8067 ; test accuracy: [92m 0.8101 [0m
+2020/03/12 23:49:37: BEST: i = 2325468, val acc: [94m 81.08[0m, test acc: [91m 81.03[0m
+2020/03/12 23:49:37: Stored the model in 0 seconds.
+2020/03/12 23:49:37: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:49:37: =============================================================
+2020/03/12 23:54:51: Num examples processed: 2581468. curr_loss: 0.3853; sec_per_sent: 0.0025
+2020/03/12 23:55:09: For test: ==>  glN_predN = 5544.0; glE_predN = 961.0; glN_predE = 912.0; glE_predE = 2407.0
+2020/03/12 23:55:09: CURRENT val accuracy: 0.8085 ; test accuracy: [92m 0.8093 [0m
+2020/03/12 23:55:09: BEST: i = 2325468, val acc: [94m 81.08[0m, test acc: [91m 81.03[0m
+2020/03/12 23:55:09: Stored the model in 0 seconds.
+2020/03/12 23:55:09: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/12 23:55:09: =============================================================
+2020/03/13 00:00:24: Num examples processed: 2709468. curr_loss: 0.4394; sec_per_sent: 0.0025
+2020/03/13 00:00:42: For test: ==>  glN_predN = 5743.0; glE_predN = 1173.0; glN_predE = 713.0; glE_predE = 2195.0
+2020/03/13 00:00:42: CURRENT val accuracy: 0.8031 ; test accuracy: [92m 0.8080 [0m
+2020/03/13 00:00:42: BEST: i = 2325468, val acc: [94m 81.08[0m, test acc: [91m 81.03[0m
+2020/03/13 00:00:42: Stored the model in 0 seconds.
+2020/03/13 00:00:42: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/13 00:00:42: =============================================================
+2020/03/13 00:02:13: Epoch: 5
+2020/03/13 00:02:31: For test: ==>  glN_predN = 5664.0; glE_predN = 1055.0; glN_predE = 792.0; glE_predE = 2313.0
+2020/03/13 00:02:31: CURRENT val accuracy: 0.8077 ; test accuracy: [92m 0.8120 [0m
+2020/03/13 00:02:31: BEST: i = 2325468, val acc: [94m 81.08[0m, test acc: [91m 81.03[0m
+2020/03/13 00:02:31: Stored the model in 0 seconds.
+2020/03/13 00:02:31: EXPERIMENT = experiment_1_SNLI_W5d0.001init_rnn_cellNonLid_SENThyp_INPhyp_BIAShyp_FFNNhyp5id_dsq_MLRhyp_rsgd_lrW0.1_lrFF0.01_prje1e-05_bs64_burnn__22:02:0512M
+2020/03/13 00:02:31: =============================================================
