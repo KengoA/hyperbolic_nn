@@ -1,0 +1,64 @@
+2020/03/13 13:30:20: Epoch: 0
+2020/03/13 13:30:28: CURRENT val accuracy: 0.6618 ; test accuracy: 0.6572
+2020/03/13 13:35:17: Epoch: 1
+2020/03/13 13:35:22: CURRENT val accuracy: 0.7913 ; test accuracy: 0.7824
+2020/03/13 13:40:13: Epoch: 2
+2020/03/13 13:40:19: CURRENT val accuracy: 0.7973 ; test accuracy: 0.7903
+2020/03/13 13:45:15: Epoch: 3
+2020/03/13 13:45:21: CURRENT val accuracy: 0.7996 ; test accuracy: 0.7974
+2020/03/13 13:50:18: Epoch: 4
+2020/03/13 13:50:24: CURRENT val accuracy: 0.8012 ; test accuracy: 0.7972
+2020/03/13 13:55:21: Epoch: 5
+2020/03/13 13:55:27: CURRENT val accuracy: 0.7965 ; test accuracy: 0.7914
+2020/03/13 14:00:20: Epoch: 6
+2020/03/13 14:00:26: CURRENT val accuracy: 0.8004 ; test accuracy: 0.7952
+2020/03/13 14:05:20: Epoch: 7
+2020/03/13 14:05:26: CURRENT val accuracy: 0.8078 ; test accuracy: 0.7956
+2020/03/13 14:10:23: Epoch: 8
+2020/03/13 14:10:29: CURRENT val accuracy: 0.8064 ; test accuracy: 0.7998
+2020/03/13 14:15:28: Epoch: 9
+2020/03/13 14:15:34: CURRENT val accuracy: 0.8018 ; test accuracy: 0.7947
+2020/03/13 14:20:29: Epoch: 10
+2020/03/13 14:20:35: CURRENT val accuracy: 0.8011 ; test accuracy: 0.7913
+2020/03/13 14:25:29: Epoch: 11
+2020/03/13 14:25:35: CURRENT val accuracy: 0.7984 ; test accuracy: 0.7847
+2020/03/13 14:30:29: Epoch: 12
+2020/03/13 14:30:36: CURRENT val accuracy: 0.7982 ; test accuracy: 0.7906
+2020/03/13 14:35:30: Epoch: 13
+2020/03/13 14:35:36: CURRENT val accuracy: 0.7989 ; test accuracy: 0.7886
+2020/03/13 14:40:32: Epoch: 14
+2020/03/13 14:40:38: CURRENT val accuracy: 0.8011 ; test accuracy: 0.7917
+2020/03/13 14:45:30: Epoch: 15
+2020/03/13 14:45:36: CURRENT val accuracy: 0.7968 ; test accuracy: 0.7868
+2020/03/13 14:50:32: Epoch: 16
+2020/03/13 14:50:38: CURRENT val accuracy: 0.7907 ; test accuracy: 0.7852
+2020/03/13 14:55:32: Epoch: 17
+2020/03/13 14:55:38: CURRENT val accuracy: 0.7931 ; test accuracy: 0.7907
+2020/03/13 15:00:33: Epoch: 18
+2020/03/13 15:00:39: CURRENT val accuracy: 0.7908 ; test accuracy: 0.7832
+2020/03/13 15:05:36: Epoch: 19
+2020/03/13 15:05:43: CURRENT val accuracy: 0.8002 ; test accuracy: 0.7863
+2020/03/13 15:10:41: Epoch: 20
+2020/03/13 15:10:47: CURRENT val accuracy: 0.7968 ; test accuracy: 0.7875
+2020/03/13 15:15:43: Epoch: 21
+2020/03/13 15:15:50: CURRENT val accuracy: 0.7920 ; test accuracy: 0.7821
+2020/03/13 15:20:45: Epoch: 22
+2020/03/13 15:20:51: CURRENT val accuracy: 0.7935 ; test accuracy: 0.7883
+2020/03/13 15:25:48: Epoch: 23
+2020/03/13 15:25:55: CURRENT val accuracy: 0.7868 ; test accuracy: 0.7856
+2020/03/13 15:30:50: Epoch: 24
+2020/03/13 15:30:57: CURRENT val accuracy: 0.7871 ; test accuracy: 0.7810
+2020/03/13 15:35:53: Epoch: 25
+2020/03/13 15:36:00: CURRENT val accuracy: 0.7924 ; test accuracy: 0.7811
+2020/03/13 15:40:59: Epoch: 26
+2020/03/13 15:41:05: CURRENT val accuracy: 0.7942 ; test accuracy: 0.7817
+2020/03/13 15:46:04: Epoch: 27
+2020/03/13 15:46:10: CURRENT val accuracy: 0.7914 ; test accuracy: 0.7818
+2020/03/13 15:51:05: Epoch: 28
+2020/03/13 15:51:11: CURRENT val accuracy: 0.7890 ; test accuracy: 0.7780
+2020/03/13 15:56:07: Epoch: 29
+2020/03/13 15:56:13: CURRENT val accuracy: 0.7908 ; test accuracy: 0.7784
+2020/03/13 16:01:13: Epoch: 30
+2020/03/13 16:01:20: CURRENT val accuracy: 0.7919 ; test accuracy: 0.7846
+
+2020/03/13 16:06:16: DONE -- BEST: i = 3258835, val acc: [94m 80.81[0m, test acc: [91m 80.17[0m
