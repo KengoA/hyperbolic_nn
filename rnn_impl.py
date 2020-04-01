@@ -21,7 +21,7 @@ class EuclRNN(tf.nn.rnn_cell.RNNCell):
         with tf.variable_scope(scope or type(self).__name__):
             if not self.built:
                 inputs_shape = inputs.get_shape()
-                print('Init RNN cell')
+                # print('Init RNN cell')
                 if inputs_shape[1].value is None:
                     raise ValueError("Expected inputs.shape[-1] to be known, saw shape: %s"
                                      % inputs_shape)
@@ -198,7 +198,7 @@ class HypRNN(tf.nn.rnn_cell.RNNCell):
         with tf.variable_scope(scope or type(self).__name__):
             if not self.built:
                 inputs_shape = inputs.get_shape()
-                print('Init RNN cell')
+                # print('Init RNN cell')
                 if inputs_shape[1].value is None:
                     raise ValueError("Expected inputs.shape[-1] to be known, saw shape: %s"
                                      % inputs_shape)

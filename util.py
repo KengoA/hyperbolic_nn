@@ -10,7 +10,6 @@ PROJ_EPS = 1e-5
 EPS = 1e-15
 MAX_TANH_ARG = 15.0
 
-
 def tf_project_hyp_vecs(x, c):
     # Projection op. Need to make sure hyperbolic embeddings are inside the unit ball.
     return tf.clip_by_norm(t=x, clip_norm=(1. - PROJ_EPS) / np.sqrt(c), axes=[1])
