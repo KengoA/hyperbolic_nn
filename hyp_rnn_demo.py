@@ -530,10 +530,10 @@ class HyperbolicRNNModel:
 
         accuracy = num_correct / (1.0 * N)
 
-        if name == 'test':
-            logger.info('For ' + name + ': ==> ' +
-                        ' glN_predN = ' + str(glN_predN) + '; glE_predN = ' + str(glE_predN) +
-                        '; glN_predE = ' + str(glN_predE) + '; glE_predE = ' + str(glE_predE))
+        # if name == 'test':
+        #     logger.info('For ' + name + ': ==> ' +
+        #                 ' glN_predN = ' + str(glN_predN) + '; glE_predN = ' + str(glE_predN) +
+        #                 '; glN_predE = ' + str(glN_predE) + '; glE_predE = ' + str(glE_predE))
 
         return accuracy
 
@@ -624,7 +624,7 @@ class HyperbolicRNNModel:
                                         test_data,
                                         'test',
                                         0)
-              logger.info('test accuracy: \033[92m %.4f \033[0m' % (test_accuracy))
+              logger.info('HypRNN (100D) - test accuracy: \033[92m %.4f \033[0m' % (test_accuracy))
             
             else:
               N = len(test_data)
@@ -681,8 +681,9 @@ class HyperbolicRNNModel:
                           glE_predN += 1.0
 
               accuracy = num_correct / (1.0 * N)
-              logger.info(predictions)
-              logger.info('test accuracy: \033[92m %.4f \033[0m' % (accuracy))
+              logger.info('predictions : ', predictions)
+              logger.info('ground truth: ', [val[4] for val in test_data])
+            #   logger.info('test accuracy: \033[92m %.4f \033[0m' % (accuracy))
               sess.graph.finalize()
               return predictions, self.embeddings.eval()
 
