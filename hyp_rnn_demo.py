@@ -684,6 +684,7 @@ class HyperbolicRNNModel:
             #   logger.info('predictions: ', predictions)
             #   logger.info('ground_truth: ', [val[4] for val in test_data])
             #   logger.info('test accuracy: \033[92m %.4f \033[0m' % (accuracy))
+              logger.info('Visualizing Token Embeddings in 2D Hyp RNN ...')
               sess.graph.finalize()
               return predictions, self.embeddings.eval()
 
