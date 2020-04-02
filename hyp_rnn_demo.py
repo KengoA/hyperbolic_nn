@@ -681,8 +681,8 @@ class HyperbolicRNNModel:
                           glE_predN += 1.0
 
               accuracy = num_correct / (1.0 * N)
-              logger.info('predictions : ', predictions)
-              logger.info('ground truth: ', [val[4] for val in test_data])
+            #   logger.info('predictions: ', predictions)
+            #   logger.info('ground_truth: ', [val[4] for val in test_data])
             #   logger.info('test accuracy: \033[92m %.4f \033[0m' % (accuracy))
               sess.graph.finalize()
               return predictions, self.embeddings.eval()
